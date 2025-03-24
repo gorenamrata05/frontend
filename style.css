@@ -1,0 +1,163 @@
+.flex {
+    display: flex;
+}
+.left-container {
+    flex: 1;
+    border-right: 1px solid lightgray;
+}
+.nav, .heading {
+    font-size: 20px;
+}
+.heading svg {
+    max-width: 100px;
+}
+.nav {
+    padding: 18px;
+    display: flex
+}
+.nav svg, .nav img {
+    margin-right: 15px;
+}
+.heading {
+    padding: 30px 20px;
+    font-weight: bold;
+}
+.right-container {
+    flex: 4; 
+}
+.user-img, .nav svg, .nav img  {
+    width: 25px;
+    height: 25px;
+}
+.user-img{
+    border-radius: 50%;
+}
+.google-logo-container {
+    padding: 50px 0 50px 120px;
+    flex: 2;
+}
+.google-logo {
+    width: 100px;
+    height: 100px;
+}
+.google-intro {
+    flex: 3;
+    padding-right: 300px;;
+}
+.google-heading {
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.google-heading button {
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+}
+.follow-btn {
+    background-color: rgb(64, 137, 245);
+    color:white;
+}
+.follow-btn, .message-btn {
+    width: 100px;
+    font-weight: bold;
+}
+.info {
+    margin: 30px 0;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.digit, .bold {
+    font-weight: bold;
+}
+.grey-text {
+    color: grey;
+}
+.google-btn {
+    background-color: #f1ecec;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0;
+    padding: 5px;
+}
+.google-text {
+    font-size: 16px;
+}
+.add-btn {
+    padding: 5px 10px;
+}
+.blue-tick {
+    /* align-items: center; */
+    vertical-align: bottom;
+}
+.internet-text {
+    padding-top: 5px;
+}
+.blue-text {
+    color: rgb(10, 10, 112);
+}
+.link-icon {
+    vertical-align: middle;
+}
+.suggested {
+    justify-content: space-between;
+    padding: 80px;
+}
+.close-icon {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 25px;
+    height: 25px;
+}
+.card {
+    text-align: center;
+}
+.story {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-circle {
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+}
+.card:first-child .inner-circle{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,138,170,1) 28%, rgba(0,212,255,1) 100%);
+}
+.card:nth-child(2) .inner-circle{
+    background: lightblue;
+}
+.card:nth-child(3) .inner-circle{
+    background: red;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.stories {
+    padding: 40px 100px;
+    gap: 40px;
+}
+.posts-container {
+    border-top: 1px solid lightgray;
+    margin: 0 80px;
+    justify-content: center;
+}
+.posts-container div {
+    padding: 20px;
+}
+.posts-container div:first-child {
+    border-top: 2px solid black;;
+}
+.instagram-posts div {
+    height: 700px;
+    margin: 2px;
+}
+.instagram-posts {
+    padding: 0 80px;
+}
